@@ -1,0 +1,50 @@
+Krishi Suvidha: An Agricultural Technology Solution
+
+Overview
+
+Krishi Suvidha is an innovative agricultural technology project aimed at empowering farmers with tools to enhance productivity, sustainability, and profitability. By leveraging advanced technologies such as machine learning, data preprocessing, and an interactive user interface, the system provides solutions for early plant disease detection, crop rotation recommendations, and efficient resource management.
+
+Features
+
+Plant Disease Detection: Detect plant diseases using image uploads and provide actionable solutions.
+
+Crop Rotation Recommendations: Suggest optimal crop sequences based on soil health and previous crop history.
+
+Precision Resource Management: Improve water and fertilizer usage through data-driven insights.
+
+Interactive Dashboard: A Streamlit-powered interface for real-time predictions and recommendations.
+
+Technologies Used
+
+Frontend: Streamlit
+
+Machine Learning Framework: scikit-learn
+
+Model Deployment: Pickle for model serialization
+
+Programming Language: Python
+
+Architecture
+
+The project is built on a modular, layered architecture:
+
+Frontend Layer:
+
+Built with Streamlit for user interaction.
+
+Allows users to upload images, view disease predictions, and receive recommendations.
+
+Backend and Processing Layer:
+
+Utilizes scikit-learn for machine learning, specifically the Random Forest algorithm.
+
+Preprocessing includes image noise removal and feature extraction.
+
+Model Layer:
+
+A pre-trained Random Forest model stored using Pickle for efficient prediction and reuse.
+
+Screenshots :
+
+WhatsApp Image 2024-12-11 at 9.36.11 PM
+
